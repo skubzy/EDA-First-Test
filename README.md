@@ -6,6 +6,11 @@ and layout is consistent, spotting patterns doesn’t take heroic effort. Realis
 close to what actual news looks like online. Working through exploration or checking data health
 goes smoothly, mainly because heavy cleanup isn’t needed before starting. No niche expertise
 stands in the way either.
+
+
+<img width="734" height="617" alt="image" src="https://github.com/user-attachments/assets/bc258a3b-7640-4090-b035-9e6cca427c19" />
+
+
 Accessing the data happened through the Hugging Face Datasets Library; this tool makes
 loading big public collections consistent and repeatable. Though the AG News training portion
 holds around 120,000 entries, that volume isn’t always useful when exploring patterns, shape,
@@ -24,6 +29,10 @@ everything together, checking article lengths showed they differ quite a bit; mo
 normal size, though some trail far below or stretch way above. On top of that, scanning for
 blanks turned up nothing missing in both text and category tags, which means the raw material
 came through clean.
+
+
+<img width="796" height="715" alt="image" src="https://github.com/user-attachments/assets/7f9b7be3-e4da-47ee-9000-b314ca41a539" />
+
 For checking how good the data is, we brought in the Great Expectations tool during analysis.
 Starting off, a working environment from Great Expectations got set up; after that, the table
 made in pandas became part of it as usable information. Rules were added one by onemaking
